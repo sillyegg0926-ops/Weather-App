@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="location_text">目前天氣</string>
+    <string name="tap_for_details">點擊查看詳細資訊</string>
+    <string name="retry">重試</string>
+    <string name="wind_text">風速</string>
+    <string name="humidity_text">濕度</string>
+    <string name="air_text">氣壓</string>
+    <string name="coordinate_text">座標</string>
+
+
+
+
+
+
+</resources>
