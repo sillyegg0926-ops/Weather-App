@@ -8,6 +8,32 @@
     <string name="air_text">氣壓</string>
     <string name="coordinate_text">座標</string>
 
+    <string name="loading">載入中…</string>
+    <string name="temperature">溫度</string>
+    <string name="weather_condition">天氣狀況</string>
+    <string name="wind_speed">風速</string>
+    <string name="wind_direction">風向</string>
+    <string name="humidity">濕度</string>
+    <string name="pressure">氣壓</string>
+    <string name="refresh">重新整理</string>
+    <string name="permission_required">需要位置權限以獲取天氣資訊</string>
+
+    <string name="error_title">錯誤</string>
+    <string name="ok">確定</string>
+
+    <string name="feels_like">體感</string>
+    <string name="hourly_forecast">小時預報</string>
+    <string name="current_weather">目前天氣</string>
+    <string name="temperature_celsius">%1$d°C</string>
+    <string name="wind_speed_kmh">%1$d km/h</string>
+    <string name="wind_direction_degrees">風向: %1$d°</string>
+    <string name="humidity_percent">%1$d%%</string>
+    <string name="pressure_hpa">%1$d hPa</string>
+    <string name="coordinates">緯度: %1$.4f°\n經度: %2$.4f°</string>
+    <string name="update_time">更新時間: %1$s</string>
+    <string name="unknown_humidity">--%</string>
+    <string name="unknown_pressure">-- hPa</string>
+
 
 
 
