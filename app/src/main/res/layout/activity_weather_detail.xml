@@ -67,7 +67,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/location_text"
-                            android:textSize="14sp"
+                            android:textSize="20sp"
                             android:textColor="@color/black"
                             android:textStyle="bold" />
 
@@ -76,7 +76,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="2dp"
-                            android:text="--°C"
+                            android:text="@string/temperature_celsius"
                             android:textSize="30sp"
                             android:textColor="#09F0F0"
                             android:textStyle="bold" />
@@ -88,7 +88,8 @@
                             android:layout_margin="2dp"
                             android:text="--"
                             android:textSize="18sp"
-                            android:textColor="?attr/colorOnSurface" />
+                            android:textColor="?attr/colorOnSurface"
+                            android:textStyle="bold"/>
 
                     </LinearLayout>
 
@@ -120,12 +121,12 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/wind_text"
-                            android:textSize="14sp"
+                            android:textSize="20sp"
                             android:textColor="@color/black"
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/wind_speed"
+                            android:id="@+id/WindSpeed"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="2dp"
@@ -135,12 +136,13 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/wind_direction"
+                            android:id="@+id/WindDirection"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="--"
                             android:textSize="18sp"
-                            android:textColor="?attr/colorOnSurface" />
+                            android:textColor="?attr/colorOnSurface"
+                            android:textStyle="bold"/>
 
 
 
@@ -173,44 +175,46 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/humidity_text"
-                        android:textSize="14sp"
+                        android:textSize="20sp"
                         android:textColor="@color/black"
                         android:textStyle="bold"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintStart_toStartOf="parent"/>
 
                     <TextView
-                        android:id="@+id/humidity_number"
+                        android:id="@+id/HumidityNumber"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="2dp"
                         android:text="--%"
                         android:textColor="@color/black"
                         android:textSize="14sp"
+                        android:textStyle="bold"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/humidityText" />
 
                         <TextView
-                            android:id="@+id/air_pressure"
+                            android:id="@+id/AirPressure"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/air_text"
-                            android:textSize="14sp"
+                            android:textSize="20sp"
                             android:textColor="@color/black"
                             android:textStyle="bold"
                             app:layout_constraintTop_toTopOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"/>
 
                         <TextView
-                            android:id="@+id/air_number"
+                            android:id="@+id/AirNumber"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="4dp"
                             android:text="--hPa"
                             android:textColor="@color/black"
                             android:textSize="14sp"
+                            android:textStyle="bold"
                             app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintTop_toBottomOf="@id/air_pressure" />
+                            app:layout_constraintTop_toBottomOf="@id/AirPressure" />
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -243,28 +247,29 @@
                             android:layout_height="wrap_content"
                             android:layout_margin="4dp"
                             android:text="@string/coordinate_text"
-                            android:textSize="14sp"
+                            android:textSize="20sp"
                             android:textColor="@color/black"
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/coordinatenumber1"
+                            android:id="@+id/LatitudeLongitude"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="4dp"
                             android:text="--"
-                            android:textSize="12sp"
+                            android:textSize="18sp"
                             android:textColor="@color/black"
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/coordinatenumber2"
+                            android:id="@+id/TimeText"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="4dp"
                             android:text="--"
-                            android:textSize="12sp"
-                            android:textColor="?attr/colorOnSurface" />
+                            android:textSize="18sp"
+                            android:textColor="?attr/colorOnSurface"
+                            android:textStyle="bold"/>
 
                     </LinearLayout>
 
