@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="MainActivity">
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -43,8 +43,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/location_text"
-                android:textSize="14sp"
                 android:textColor="@color/black"
+                android:textSize="14sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -53,8 +53,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:text="--°C"
-                android:textSize="72sp"
                 android:textColor="#09F0F0"
+                android:textSize="72sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -62,8 +62,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="--"
-                android:textSize="18sp"
-                android:textColor="?attr/colorOnSurface" />
+                android:textColor="?attr/colorOnSurface"
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/tapForDetails"
@@ -71,8 +71,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:text="@string/tap_for_details"
-                android:textSize="12sp"
-                android:textColor="?attr/colorOnSurfaceVariant" />
+                android:textColor="?attr/colorOnSurfaceVariant"
+                android:textSize="12sp" />
 
         </LinearLayout>
 

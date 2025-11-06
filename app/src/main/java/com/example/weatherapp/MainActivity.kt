@@ -114,7 +114,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setupClickListeners() {
-        binding.locationText.setOnClickListener {
+        binding.card.setOnClickListener {
             val weatherData = viewModel.weatherData.value
             if (weatherData != null) {
                 val intent = Intent(this, WeatherDetailActivity::class.java).apply {

@@ -36,7 +36,7 @@ class WeatherDetailActivity : AppCompatActivity() {
         }
         
         if (weatherData != null) {
-            binding.locationText.text = getString(R.string.temperature_celsius, weatherData.temperature.toInt())
+            binding.temperatureText.text = getString(R.string.temperature_celsius, weatherData.temperature.toInt())
             binding.conditionText.text = weatherData.weatherDescription
             
             binding.WindSpeed.text = getString(R.string.wind_speed_kmh, weatherData.windSpeed.toInt())
